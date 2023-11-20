@@ -1,0 +1,39 @@
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+.about h1 {
+    width: 30%;
+    position: relative;
+}
+.about h1::before,
+.about h1::after {
+    content: "";
+    background-color: #000;
+    height: 3px;
+    position: absolute;
+    left: 0;
+}
+.about h1::before {
+    width: 25%;
+    bottom: -20px;
+}
+.about h1::after {
+    width: 20%;
+    bottom: -40px;
+}
+.about p {
+    width: 50%;
+}
+@media (max-width: 990px) {
+    .about h1,
+    .about p {
+        width: 100%;
+    }
+    .about h1 {
+        margin-bottom: 60px;
+    }
+}

@@ -1,0 +1,9 @@
+:root {
+    --ff: 'Montserrat', sans-serif;
+
+    --fs-body: 13px;
+    --fs-title: 22px;
+
+    --color-brand: #298c7a;
+    --color-bg: #eee;
+}
